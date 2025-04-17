@@ -1,5 +1,6 @@
-$cor-primaria: #ff0000;
-$cor-segundaria: #ff9377;
+$cor-primaria: #ff9100b9;
+$cor-segundaria: #fcc142;
+$cor-button: #3a6ebd;
 
 /*$dark-mode: (
     "text": #ffffff00;
@@ -22,12 +23,12 @@ $clear-mode: (
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 9pc;
+    margin-top: 6pc;
 }
 
 @mixin cardSize {
     width: 300px;
-    height: 300px;
+    height: 350px;
     text-align: center;
 }
 
@@ -35,6 +36,10 @@ ul, li {
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-top: 20px;
+}
+h4 {
+    margin-top: 30px;
 }
 
 #container {
@@ -52,4 +57,13 @@ ul, li {
 
 #themeToggle {
     background-color: 4B0082;
+}
+button {
+    background-color: $cor-button;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
 }

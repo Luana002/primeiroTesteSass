@@ -18,29 +18,44 @@ ul, li {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-top: 20px;
+}
+
+h4 {
+  margin-top: 30px;
 }
 
 #container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 9pc;
+  margin-top: 6pc;
 }
 
 .cardOne {
   width: 300px;
-  height: 300px;
+  height: 350px;
   text-align: center;
-  background-color: #ff0000;
+  background-color: rgba(255, 145, 0, 0.7254901961);
 }
 
 .cardTwo {
   width: 300px;
-  height: 300px;
+  height: 350px;
   text-align: center;
-  background-color: #ff9377;
+  background-color: #fcc142;
 }
 
 #themeToggle {
   background-color: 4B0082;
+}
+
+button {
+  background-color: #3a6ebd;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
